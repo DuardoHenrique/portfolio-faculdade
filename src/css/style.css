@@ -1,0 +1,74 @@
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+#header {
+    background-color: green;
+    height: 15%;
+}
+
+#header nav {
+    height: 100%;
+    width: 100%;
+}
+
+#header .list-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 3fr 1fr; 
+    grid-template-areas: 
+        'left center right'
+        'description description description    ';
+    height: 85%;
+    width: 100%;
+    background-color: black;
+}
+
+#main .left {
+    grid-area: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+#main .center {
+    grid-area: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+#main .right {
+    grid-area: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+
+#main .description {
+    grid-area: description;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+a:hover {
+    text-decoration: underline;
+}
