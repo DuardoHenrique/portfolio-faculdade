@@ -123,6 +123,44 @@ body {
     height: 85%;
 }
 
+#contact .flex {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+#contact label {
+    margin-bottom: 5px;
+}
+
+#contact .flex input {
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+
+
+#contact textarea {
+    border-radius: 10px;
+    padding: 3px 3px 0px 8px;
+}
+
+#contact .flex input.button {
+    margin-top: 5px;
+    background-color: #d4d4d4;
+}
+
+#contact .flex input.button:hover {
+    border: black 1px solid;
+}
+
+#contact .flex input:hover {
+    background-color: #d4d4d4;
+    /* border: none; */
+}
+
 .bold {
     font-weight: bold;
 }

@@ -29,7 +29,33 @@
         </nav>
     </header>
 
-    <h1>Contato</h1>
+    <section id="contact">
+        <form action="#">
+            <h2>Entre em contato:</h2>
+
+            <div class="flex">
+                <label for="name">Seu nome:</label>
+                <input type="text" name="name" id="name" value="" placeholder="João">
+            </div>
+
+            <div class="flex">
+                <label for="email">Seu E-mail:</label>
+                <input type="text" name="email" id="email" value="" placeholder="joao@gmail.com">
+            </div>
+            
+            <div class="flex">
+                <label for="subject">Assunto:</label>
+                <input type="text" name="subject" id="subject" value="" placeholder="Proposta de emprego">
+            </div>
+
+            <div class="flex">
+                <label for="message">Sua mensagem:</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <input type="button" value="Enviar" class="button">
+            </div>
+
+        </form>
+    </section>
 
 </body>
 

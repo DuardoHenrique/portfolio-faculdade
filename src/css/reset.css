@@ -8,6 +8,14 @@ li {
     list-style-type: none;
 }
 
+input {
+    border: #d4d4d4 solid 2px;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
 a {
     text-decoration: none;
     color: black;
